@@ -1,0 +1,491 @@
+*{
+  margin: auto;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.Global{
+    background-color:#000000CC;
+    width: 100%;
+}
+.Globalnav1 > ul{
+    padding:0px 150px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 44px;
+    color: white;
+  }
+  .chapter{
+    top: 44px;
+    height: 116px;
+  }
+.chapternav{
+  padding:0px 150px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  }
+  .chapternav > span > a{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    color: black;  
+    padding: 5px;
+  }
+  .chapternav > span > a > img{
+    height: 50px;
+    width: 40px;
+  }
+
+@media screen (max-width:400px) {
+  .chapternav > ul{
+    display:flex;
+    flex-direction:row;
+  }
+}
+
+
+
+  #section1{
+    background-color: white;
+  }
+.big-and-bigger{
+  Height:930.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big-and-bigger > div> div{
+  margin-top: 0px;
+}
+.big-and-bigger > div > img{
+  width: 788px;
+  height: 717px;
+}
+.chip1{
+  width: 470px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.chip1 > h3{
+  font-family: SF Pro Text;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.37400001287460327px;
+text-align: center;
+}
+.chip1 > span{
+  font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.14399999380111694px;
+text-align: center;
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+-webkit-background-clip: text; /* For webkit browsers (Safari, Chrome) */
+color: transparent; /* Make the text transparent */
+display: inline; /* To prevent the background from stretching */
+}
+.chip1 > div{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  padding: 1rem;
+}
+.chip1 > div > button{
+  background-color:rgba(0, 113, 227, 1);
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px 15px;
+}
+.chip1 > div > a{
+  text-decoration: none;
+  color:rgba(0, 113, 227, 1)
+}
+.chip2{
+  width: 470px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+.chip2 > h3{
+  font-family: SF Pro Text;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.37400001287460327px;
+text-align: center;
+}
+.chip2 > span{
+  font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.14399999380111694px;
+text-align: center;
+background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+-webkit-background-clip: text; /* For webkit browsers (Safari, Chrome) */
+color: transparent; /* Make the text transparent */
+display: inline; /* To prevent the background from stretching */
+padding: 5px;
+}
+.chip2 > div{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  padding: 1rem;
+}
+.chip2 > div > button{
+  background-color:rgba(0, 113, 227, 1);
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px 15px;
+}
+.chip2 > div > a{
+  text-decoration: none;
+  color:rgba(0, 113, 227, 1)
+}
+
+.pro-Beyond{
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  Height:930.5px;
+}
+.pro-Beyond > div{
+  padding-top: 5rem;
+}
+.power-price > div{
+  display: flex;
+  align-items: center;
+  text-align:center;
+}
+.power-price > figure{
+  width: 494px;
+  height: 830px;
+
+}
+.chip3{
+  width: 470px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  gap: 1rem;
+  padding: 60px;
+  margin: 0%;
+}
+.chip3 > h3{
+  font-family: SF Pro Text;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.37400001287460327px;
+text-align: center;
+}
+.chip3 > p{
+font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.14399999380111694px;
+text-align: center;
+background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+-webkit-background-clip: text; /* For webkit browsers (Safari, Chrome) */
+color: transparent; /* Make the text transparent */
+display: inline; /* To prevent the background from stretching */
+padding: 5px;
+}
+.chip3 > div{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem;
+}
+button{
+  background-color:rgba(0, 113, 227, 1);
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 5px 15px;
+}
+a{
+  text-decoration: none;
+  color:rgba(0, 113, 227, 1)
+}
+#section2{
+  width: 1512px;
+  height: 838px;
+padding: 15px, 36px, 9px, 36px;
+
+}
+.guided-tour > div{
+  width: 1440px;
+  height: 838px;
+ padding: 0px, 15px, 0px, 15px;
+ position: relative;
+}
+
+.chip4{
+  color: #f6f6f6;
+  top: 0px;
+  width: 470px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 200px;
+  z-index: 1;
+  position: absolute;
+  padding-left: 30px;
+}
+.chip4 > p{
+  font-size: 40px;
+}
+
+.list-of-phones{
+  padding: 70px;
+  width: 1000px;
+  height: auto
+}
+.list-of-phones > h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.list-of-phones > div > table{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.R1 > div > div > ul > li > button{
+  margin: 1rem;
+}
+.R1 > div > img{
+  margin: 1rem;
+}
+.R1:active{
+  border-bottom: 2px solid gray;
+}
+table{
+  size: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+td{
+  padding: 20px;
+  text-align: center;
+  width: 209.5px;
+  margin: 10px;
+
+}
+td > div div> {
+  border-spacing: 30px;
+  /* border-bottom: 1px solid red; */
+}
+.list-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:20px;
+  padding:80px 250px;
+}
+.wow{
+width: 1440px;
+height: 617px;
+left: 36px;
+padding: 0px, 30px, 30px, 30px;
+}
+.wow > div{
+display: flex;
+width: 1380px;
+height: 587px;
+left: 30px;
+padding: 17px, 50.08px, 15px, 100.03px;
+background-color: rgba(1, 1, 42, 1);
+}
+
+.wow-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wow-text > h1{
+  color: white;
+  font-size:70px;
+}
+
+.wow > div > img{
+  height: auto;
+  width: auto;
+}
+#section5 > h1{
+  text-align: center;
+  font-size: 50px;
+  margin: 3rem;
+
+}
+#section5, #section6, #section7, #section8, #section9{
+  background-color: rgb(240, 238, 238);
+}
+.ways1{
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(237, 224, 224);
+  text-align: center;
+  margin: 50px 80px;
+  width: auto;
+  padding-top: 20px;
+}
+.ways1-list{
+  display: flex;
+  height: 141px;
+  top: 275px;
+  left: 151px;
+  margin: 2rem;
+}
+.ways1-list > div{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ways1-foot{
+  line-height: 5rem;
+  margin: 50px;
+}
+.ways2-list{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.ways2{
+  width: 675px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(237, 224, 224);
+}
+.ways2 > div{
+  gap: 2rem;
+}
+.topography > a{
+}
+.ways3{
+  width: 675px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(237, 224, 224);
+}
+.ways3 > div{
+  gap:2rem;
+}
+
+.ways4{
+  width: 1440px;
+  margin-left:70px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(237, 224, 224);
+}
+
+#section6 > h1{
+  margin: 50px 0px;
+  font-size: 50px;
+  text-align: center;
+}
+#section6 > div{
+  margin-bottom: 30px;
+}
+.features{
+  display: flex;
+  padding: 50px 0px;
+  width: 1400px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(237, 224, 224);
+}
+
+.topography{
+  text-align: center;
+  width: 400px;
+  font-family: SF Pro Display;
+font-size: 19px;
+letter-spacing: 0.23100000619888306px;
+text-align: center;
+}
+.features > div > h1{
+  font-size: 50px;
+  margin: 30px;
+}
+.features > div > p{
+  margin-bottom:30px;
+}
+.features > div > ul{
+  display: flex;
+  justify-content: space-between;
+}
+.magic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(237, 224, 224);
+}
+.magic > img{
+ height: 100px;
+ width: 100px;
+}
+.magic > h1{
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Apple-Dictionary{
+  display: flex;
+}
+.Apple-Dictionary > div > p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Apple-Dictionary > div > div > p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
