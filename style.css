@@ -46,15 +46,6 @@
     align-items: center;
     color: gold;
   }
-@media screen (max-width:400px) {
-  .chapternav > ul{
-    display:flex;
-    flex-direction:row;
-  }
-}
-
-
-
   #section1{
     background-color: white;
   }
