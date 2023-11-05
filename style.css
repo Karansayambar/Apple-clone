@@ -1,12 +1,13 @@
 *{
   margin: auto;
-  overflow-y: auto;
   box-sizing: border-box;
 }
 
 .Global{
     background-color:#000000CC;
     width: 100%;
+    position:sticky;
+  top: 0;
 }
 .Globalnav1 > ul{
     padding:0px 150px;
@@ -39,7 +40,12 @@
     height: 50px;
     width: 40px;
   }
-
+  .chapternav > span > p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gold;
+  }
 @media screen (max-width:400px) {
   .chapternav > ul{
     display:flex;
@@ -237,10 +243,9 @@ padding: 15px, 36px, 9px, 36px;
 
 }
 .guided-tour > div{
-  width: 1440px;
-  height: 838px;
- padding: 0px, 15px, 0px, 15px;
- position: relative;
+  width: 95vw;
+  position: relative;
+  text-align: center;
 }
 
 .chip4{
@@ -312,7 +317,7 @@ td > div div> {
 .wow{
 width: 1440px;
 height: 617px;
-left: 36px;
+width: 90vw;
 padding: 0px, 30px, 30px, 30px;
 }
 .wow > div{
@@ -346,10 +351,11 @@ background-color: rgba(1, 1, 42, 1);
   margin: 3rem;
 
 }
-#section5, #section6, #section7, #section8, #section9{
+#section5, #section6, #section7, #section8, #section9, footer{
   background-color: rgb(240, 238, 238);
 }
 .ways1{
+  border-radius: 5px;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgb(237, 224, 224);
   text-align: center;
@@ -382,26 +388,30 @@ background-color: rgba(1, 1, 42, 1);
   padding: 50px;
 }
 .ways2{
-  width: 675px;
+  border-radius: 5px;
+  width: 650px;
+  height: 600px;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgb(237, 224, 224);
 }
-.ways2 > div{
-  gap: 2rem;
-}
-.topography > a{
-}
+
 .ways3{
-  width: 675px;
+  border-radius: 5px;
+  width: 650px;
+  height: 600px;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgb(237, 224, 224);
 }
 .ways3 > div{
   gap:2rem;
 }
+.ways3 > img{
+  width: 600px;
+}
 
 .ways4{
-  width: 1440px;
+  border-radius: 5px;
+  width: 1385px;
   margin-left:70px;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgb(237, 224, 224);
@@ -424,12 +434,17 @@ background-color: rgba(1, 1, 42, 1);
 }
 
 .topography{
+  line-height: 2rem;
+  padding-top: 15px;
   text-align: center;
   width: 400px;
   font-family: SF Pro Display;
 font-size: 19px;
 letter-spacing: 0.23100000619888306px;
 text-align: center;
+}
+.topography > h1{
+  height: 50px;
 }
 .features > div > h1{
   font-size: 50px;
@@ -443,49 +458,299 @@ text-align: center;
   justify-content: space-between;
 }
 .magic{
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 70px;
+  width: 90vw;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgb(237, 224, 224);
+  padding-top: 100px;
+  position: relative;
 }
 .magic > img{
  height: 100px;
  width: 100px;
 }
 .magic > h1{
+  display: block;
+  position: absolute;
   font-size: 50px;
 }
+#section6 > a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+#section7 > div{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  text-align: center;
+  margin: 40px;
+  padding: 40px;
+  border-radius:5px
+}
+.help{
+  padding: 30px;
+}
 
+.help-head{
+  margin: 10px;
+  font-weight: 900;
+  font: bolder;
+}
+.help > img{
+  height: 120px;
+  width: 120px;
+}
 
+#section8 > p{
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px;
+}
+.iphone-iphone{
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.iphone-iphone-1{
+ position: relative;
+}
+.iphone-iphone-1 > div{
+  position: absolute;
+  z-index: 2;
+  padding: 50px;
+  left: 40%;
+}
+.iphone-iphone-1 > img{
+  width: 1380px;
 
+} 
+.ios{
+  font-size: 50px;
+  font-weight: 900;
+  padding-bottom: 50px;
+  padding: 30px;
 
+}
 
+.iphone-iphone-2{
+  margin: 50px;
+  background-color: white;
+}
+.iphone-iphone-2 > div {
+  width: 675px;
+}
+.ONE{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+  height: 609px;
+}
+.and-more{
+  width: 90vw;
 
+}
+#section9 > p{
+  padding: 50px;
+  font-size:50px;
+  font-weight:900;
+  text-align: center;
+}
+.ONE > div div > p{
+  padding: 30px;
+  font-size:30px;
+  font-weight:700;
+  font: bold;
+}
+.al{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px !important;
+  gap: 50px;
+}
+.tv-music{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.TV{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: white;
+  padding:40px 0px ;
+  width: 675;
+  text-align: center;
+  margin-left: 0%;
+  height: 630.42px;
+}
 
+.music-gallary{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfbfb;
+  color: black;
+  padding:40px 0px ;
+  width: 665;
+  text-align: center;
+  margin-right: 0%;
+  height: 630.42px;
+}
+.list{
+  display: flex;
+}
 
+.news-arcade{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+}
+.News{
+  margin-left: 0%;
+}
+.Arcade{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 616px;
+  width: 645px;
+  background-color: white;
+  margin-right: 0%;
+}
+.Arcade > div > img{
+  height: 400px;
+  width: 400px;
+}
+.fitness-gift{
+  width: 90vw;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fitness{
+  text-align: center;
+  width: 675px;
+  background-color: white;
+  height: 613px;
+  margin-left: 0%;
+}
+.fitness > div{
+  padding: 40px;
+}
+.Gift-Card{
+  text-align: center;
+  width: 675px;
+  background-color: white;
+  height: 613px;
+  margin-right: 0%;
+  padding-top: 40px;
+}
+.studies{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  padding-top: 80px;
+  text-align: center;
+  background-color: white;
+  margin: 50px 0px;
+}
+.studies > div > p{
+  font-size: 50px;
+  padding: 20px;
+  font-weight:700;
+  
+}
+footer{
+  width: 90vw;
+  padding: 20px 170px;
 
+}
+.footnotes{
+  padding: 20px 170px;
 
+}
+#sectionB{
+  margin-top: 30px;
+}
+#sectionB > div{
+  padding: 10px 0px;
+}
+.policy{
+  display: flex;
+}
+.policy > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  height: 50px;
+}
+.txt-co{
+  color: #5598DE;
+  font-weight: 700;
+}
+.hr{
+  height: 30px;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 .Apple-Dictionary{
   display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .Apple-Dictionary > div > p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .Apple-Dictionary > div > div > p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width:560px){
+  .chapternav{
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-betwee;
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    gap: 10px;
+  }
+  .chapternav::-webkit-scrollbar{
+    display: none;
+  }
+  .Globalnav1 > ul{
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .big-and-bigger > img{
+    height: 100%;
+    width: 100%;
+  }
 }
